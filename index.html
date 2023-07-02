@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Color Mixer</title>
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+
+    <body id="body">
+        <h1>RGB COLOR MIXER</h1>
+       <div id="container">
+           <div id="red">
+               <h3 id="red-heading">RED</h3>
+               <div id="btns">
+                   <button id="subRed" class="minus">-</button>
+                   <button id="minRed" class="reset">min</button>
+                   <button id="halfRed" class="reset">1/2</button>
+                   <button id="maxRed" class="reset">max</button>
+                   <button id="plusRed"  class="plus">+</button>
+
+                   <p id="redVal">255</p>
+               </div>
+           </div>
+
+           <div id="green">
+               <h3 id="green-heading">GREEN</h3>
+
+               <div id="btns">
+                   <button id="subGreen" class="minus">-</button>
+                   <button id="minGreen" class="reset">min</button>
+                   <button id="halfGreen" class="reset">1/2</button>
+                   <button id="maxGreen" class="reset">max</button>
+                   <button id="plusGreen" class="plus">+</button>
+
+                   <p id="greenVal">255</p>
+               </div>
+           </div>
+
+           <div id="blue">
+               <h3 id="blue-heading">BLUE</h3>
+
+               <div id="btns">
+                   <button id="subBlue" class="minus">-</button>
+                   <button id="minBlue" class="reset">min</button>
+                   <button id="halfBlue" class="reset">1/2</button>
+                   <button id="maxBlue" class="reset">max</button>
+                   <button id="plusBlue" class="plus">+</button>
+
+                   <p id="blueVal">255</p>
+               </div>
+           </div>
+
+           <div id="containerColor">
+                <span id="RGB">Color code in RGB: </span><span id="ColorRGB">(255, 255, 255)</span>
+           </div>
+       </div>
+
+       <script src="app.js"></script>
+    </body>
+
+</html>
